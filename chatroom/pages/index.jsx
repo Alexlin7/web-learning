@@ -1,13 +1,14 @@
 import Header from "../components/Header"
-import Main from "../components/Main" 
 import GlobalStyles from "../components/style/Global"
+import Form from "../components/LoginForm"
+import Container from "../components/style/Container.styled"
 
 export default function HomePage() {
     return (
-      <>
+      <Container>
         <GlobalStyles />
         <Header />
-        <Main />
-      </>
+        <Form />
+      </Container>
     )
 }

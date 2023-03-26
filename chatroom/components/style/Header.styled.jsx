@@ -7,19 +7,20 @@ export const StyledHeader = styled.header`
 export const Nav = styled.nav`
     display: flex;
     align-items: center;
-    justify-items: center;
-    justify-content: space-around;
-
+    justify-content: space-between;
 `
 
 export const List = styled.ul`
     list-style-type: none;
     font-size: 1.75em;
     color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 
 `
 
 export const ListItem = styled.li`
-display: inline;
-    margin: 60px;   
+    margin: 40px;
 `
