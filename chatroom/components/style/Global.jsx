@@ -13,7 +13,7 @@ const GlobalStyles = createGlobalStyle`
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-            background-position: center;
+    background-position: center;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     font-size: 1.15em;

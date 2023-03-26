@@ -9,10 +9,10 @@ import { useState } from "react"
 export default function HomePage() {
   const [click, setClick] = useState(false)
   return (
-    <Container>
+    <>
       <GlobalStyles />
       <Header click = { click } setClick = { setClick } />
-      <Form click = { click } />
-    </Container>
+      <Form click = { click } setClick = { setClick } />
+    </>
   )
 }
