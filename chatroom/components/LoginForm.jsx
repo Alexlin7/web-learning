@@ -1,9 +1,10 @@
 import Button from "./style/Button.styled";
 import StyledForm from "./style/Form.styled";
+import Wrapper from "./style/Form.styled";
 
-export default function Form() {
-    return(
-        <StyledForm>
+export default function Form({ click }) {
+    return (
+        <StyledForm click={click}>
             <h1 className="formTitle">FBI Open Up</h1>
             <h2 className="colTitle">EMAIL</h2>
             <input type="email" className="inputClass" />
@@ -12,6 +13,7 @@ export default function Form() {
             <Button LoginClick >Login</Button>
 
             <span>Don't have an account?Sigu up!</span>
+
         </StyledForm>
     );
 }

@@ -5,7 +5,12 @@ import { List } from "./style/Header.styled";
 import { Nav } from "./style/Header.styled";
 import { ListItem } from "./style/Header.styled";
 
-export default function Header() {
+
+
+export default function Header({ click ,setClick }) {
+    const clickLogin = () => {
+        setClick(!click);
+    };
     return (
         <StyledHeader>
             <Nav>
@@ -16,7 +21,7 @@ export default function Header() {
                     <ListItem>manu3</ListItem>
 
                 </List>
-                <Button>Login</Button>
+                <Button onClick={clickLogin}>Login</Button>
             </Nav>
         </StyledHeader>
 
