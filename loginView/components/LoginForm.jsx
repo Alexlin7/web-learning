@@ -1,6 +1,6 @@
 import Button from "./style/Button.styled";
 import StyledForm from "./style/Form.styled";
-import Container from "./style/Container.styled";
+import Block from "./style/Block.styled";
 
 export default function Form({ click, setClick }) {
     const ClickContainer = () => {
@@ -9,7 +9,7 @@ export default function Form({ click, setClick }) {
 
     return (
         <>
-            <Container onClick={ClickContainer} click={click} />
+            <Block onClick={ClickContainer} click={click} />
             <StyledForm click={click}>
                     <h1 className="formTitle">FBI Open Up</h1>
                     <h2 className="colTitle">EMAIL</h2>

@@ -7,7 +7,7 @@ const Button = styled.button`
     height: 60px;
     color: ${props => props.LoginClick ? "#FFFFFF" : "000000"};
     border: #FFFFFF;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bold;
 `
 
